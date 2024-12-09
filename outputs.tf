@@ -32,13 +32,3 @@ output "bucket_tags_all" {
   value       = aws_s3_bucket.bucket.tags_all
   description = "A map of tags assigned to the resource, including those inherited from the provider default_tags configuration block."
 }
-
-output "bucket_website_endpoint" {
-  value       = aws_s3_bucket.bucket.website_endpoint
-  description = " The website endpoint, if the bucket is configured with a website."
-}
-
-output "bucket_website_domain" {
-  value       = aws_s3_bucket.bucket.website_domain
-  description = " The website endpoint, if the bucket is configured with a website."
-}
