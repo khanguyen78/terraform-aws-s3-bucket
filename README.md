@@ -61,3 +61,4 @@ locals {
 
 
 ```
+Run a `terraform apply` and a bucket named `kqmap-learning-tf-dev` should get created.
